@@ -1,0 +1,21 @@
+## design 
+- head 
+- 5*6 
+- keyboard
+## interaction
+- one character typing 
+  - grey border, black font 
+- one line typing 
+  - Enter and delete 
+  - only detects letter not number or other symbols
+  - if it is a word, next, or 'not in a word list' 
+    - API we can use to check the word 
+  - flip effect
+  - result, no border, white font color
+    - grey-"absent"
+    - yellow-"present"
+    - green - "correct"
+  - keyboard
+    -  grey-"absent"
+    -  yellow-"present"
+    -  green - "correct"

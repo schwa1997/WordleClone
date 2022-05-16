@@ -1,0 +1,48 @@
+@use '../util'as *;
+.header{
+    align-items:center ;
+    width: rem(1110)
+}
+.material-icons{
+    color: darkcyan;
+}
+
+
+.guess {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    //fr fraction calculating the width percentage
+    gap: rem(2);
+    width: rem(300);
+
+
+    &__tile {
+        border: rem(2) solid rgba(43, 212, 91, 0.5);
+        width: rem(52);
+        height: rem(52);
+        display: inline-flex;
+        justify-content: center;
+        align-items:center;
+        align-self: center;
+        font-size: rem(30);
+    }
+    ;
+}
+
+.tile_absent{
+    background-color: gray;
+}
+.tile_present{
+    background-color: darkgoldenrod;
+}
+.tile_correct{
+    background-color: rgba(43, 212, 91);
+}
+
+;
+
+.keyboard {
+    position: fixed;
+    width: 100%;
+    padding: 5px 0;
+}
